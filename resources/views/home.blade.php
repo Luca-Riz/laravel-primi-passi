@@ -24,6 +24,7 @@
             <div class="links">
                 <a href="{{ route('homepage')}}">Home</a>
                 <a href="{{ route('dati')}}">Dati</a>
+                <a href="{{ route('aspettative')}}">Aspettative</a>
             </div>
 
             <h1>Hello World</h1>

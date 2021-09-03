@@ -28,14 +28,9 @@
             </div>
 
             <h2> {{ $title }} </h2>
-
-            <ul>
-                @foreach($arrayProva as $dato)
-                    <li>
-                        {{ $dato }}
-                    </li>
-                @endforeach
-            </ul>
+            <p> {{ $paragrafo }} </p>
+            <p><strong> {{ $paragrafo2 }} </strong></p>
+            <p> {{ $paragrafo3 }} </p>
 
         </div>
 
