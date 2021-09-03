@@ -26,7 +26,15 @@
                 <a href="{{ route('dati')}}">Dati</a>
             </div>
 
-            <h1>Hello World</h1>
+            <h2> {{ $title }} </h2>
+
+            <ul>
+                @foreach($arrayProva as $dato)
+                    <li>
+                        {{ $dato }}
+                    </li>
+                @endforeach
+            </ul>
 
         </div>
 

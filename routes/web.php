@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 })->name('homepage');
+
+Route::get('/dati', function () {
+    $data = [
+        'title' => 'pagina dati',
+        'arrayProva' => ['cane','topo','gatto', 'mio ciggino quel bue', 'oca']
+    ];
+
+    return view('dati', $data);
+})->name('dati');
