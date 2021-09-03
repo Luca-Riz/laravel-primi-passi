@@ -24,6 +24,7 @@
             <div class="links">
                 <a href="{{ route('homepage')}}">Home</a>
 
+                <h1>Hello World</h1>
             </div>
         </div>
 
